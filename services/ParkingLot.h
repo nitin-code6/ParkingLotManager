@@ -1,8 +1,9 @@
 #ifndef PARKINGLOT_H
 #define PARKINGLOT_H
 #include <vector>
-#include "models/ParkingSlot.h"
-#include "models/Vehicle.h"
+#include <string>
+#include "../models/ParkingSlot.h"
+#include "../models/Vehicle.h"
 class ParkingLot{
     std::vector<ParkingSlot>Slots;
     int totalSlots;

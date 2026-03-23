@@ -23,7 +23,7 @@ Vehicle*  ParkingSlot::unparkVehicle(){
 bool ParkingSlot::isAvailable() const{
     return !isOccupied;
 }
-std::string ParkingSlot::getId() const{
+std::string ParkingSlot::getSlotId() const{
     return slotId;
 }
 Vehicle* ParkingSlot::getParkedVehicle() const{

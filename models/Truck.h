@@ -1,5 +1,5 @@
-#ifndef CAR_H
-#define CAR_H
+#ifndef TRUCK_H
+#define TRUCK_H
 #include "Vehicle.h"
 
 // Car inherits from Vehicle

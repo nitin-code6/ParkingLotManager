@@ -11,7 +11,7 @@ ParkingSlot(const std::string &slotId);
 bool parkVehicle(Vehicle* vehicle);
 Vehicle* unparkVehicle();
 bool isAvailable() const;
-std::string getId() const;
+std::string getSlotId() const;
  Vehicle* getParkedVehicle() const ;
 };
 #endif
